@@ -1,0 +1,354 @@
+.driver_container {
+    padding: 0px 10px 20px 10px;
+}
+
+.driver_top_bar_align {
+    align-items: center;
+    text-align: left;
+}
+
+.driver_top_title_bar {
+    display: flex;
+    align-items: center;
+}
+
+.driver_top_title_bar .back {
+    margin-right: 8px;
+    cursor: pointer;
+
+}
+
+.driver_top_title_bar .title {
+    color: #06152B;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.driver_date_filter_align {
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.driver_date_filter_button_active {
+    color: #F06B24;
+    background: #FEF6F2 !important;
+    border-radius: 18px;
+}
+
+.driver_date_filter_button_disabled {
+    color: #67707E;
+    background: #fff !important;
+    border-radius: 18px;
+}
+
+.driver_loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh
+}
+
+.driver_date_filter_button {
+    color: #06152B !important;
+    background: #fff !important;
+    border-radius: 18px;
+}
+
+.export_csv_button {
+    border-radius: 15.37px !important;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px !important;
+    font-weight: 700;
+    min-width: 140px !important;
+}
+
+.export_icon_button {
+    border-radius: 10.37px !important;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+}
+
+.driver_card {
+    border-radius: 15.938px;
+    background: #FFF;
+    box-shadow: 0px 3.54px 3.54px 0px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    min-height: 230px;
+    padding: 10px 0px 10px 10px;
+    display: flex;
+}
+
+.driver_box {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.driver_box .divide_box {
+    width: 50%;
+}
+
+.driver_box .divide_box li {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+
+
+.driver_box_icon {
+    min-width: 45px !important;
+    width: 44.626px;
+    height: 44.626px;
+    background: #ECF0F4 !important;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.driver_box_icon svg {
+    padding: 10px;
+}
+
+.primary_text span {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    line-height: 36.149px !important;
+
+}
+
+.primary_text_subtext div {
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24.405px !important;
+}
+
+.mt_15 {
+    margin-top: 15px;
+}
+
+.mt_10 {
+    margin-top: 10px;
+}
+
+
+.trip_details_box {
+    box-shadow: 0px 3.54px 3.54px 0px rgba(0, 0, 0, 0.05) !important;
+}
+
+.trip_details_box,
+.heading {
+    padding: 10px;
+    text-align: left
+}
+
+.trip_details_box .title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.align_items_center {
+    align-items: center;
+}
+
+.table_component_container:last-child {
+    padding: 0px 10px 20px 10px;
+}
+
+.alerts_chart_text_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.alerts_chart_text_box div {
+    color: #67707E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+
+.alerts_chart_text_box .total {
+    background-color: #FFDFDD;
+    padding: 0px 2px 0px 14px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.alerts_chart_text_box_chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 12px !important; */
+}
+
+.alerts_chart_text_box .adhered {
+    background-color: #EB5757;
+    padding: 0px 2px 0px 14px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.alerts_chart_text_box .percentage {
+    color: #03A89E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.alerts_chart_text_box .symbol {
+    color: #03A89E;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.alerts_chart_text_box .align_center {
+    text-align: center;
+    width: 100%;
+}
+
+.driver_chart_card {
+    border-radius: 15.938px;
+    background: #fff;
+    box-shadow: 0px 3.54px 3.54px 0px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    min-height: 230px;
+    padding: 10px;
+
+}
+
+.driver_chart_card .title {
+    color: #202536;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.405px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.driver_count_card {
+    display: flex;
+    min-height: 116px;
+    background: #fff;
+    padding: 25px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 3.5px 3.5px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.driver_count_card .icon_bg {
+    width: 44.626px;
+    height: 44.626px;
+    background: #ECF0F4 !important;
+    border-radius: 50%;
+}
+
+.driver_count_card .icon_bg svg {
+    padding: 10px;
+}
+
+.driver_count_card .count {
+    color: #202536;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.149px;
+    text-align: left;
+}
+
+.driver_count_card .text {
+    color: #202536;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.driver_count_card .text_content {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.driver_card_chart {
+    border-radius: 15.938px;
+    background: #FFF;
+    box-shadow: 0px 3.54px 3.54px 0px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    min-height: 230px;
+    padding: 15px 20px 0px 20px;
+}
+
+.driver_card_chart .title {
+    color: #06152B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.driver_card_chart .title span {
+    margin-left: 15px;
+}
+
+
+.font_bold {
+    font-weight: 700;
+    color: #202536;
+    ;
+}
+
+.alert_percent_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 116px;
+    background: #fff;
+    padding: 25px 10px 10px 10px;
+    align-items: center;
+}
+
+.alert_percent_card .icon_bg {
+    width: 70px;
+    height: 70px;
+    background: #ECF0F4 !important;
+    border-radius: 50%;
+}
+
+.alert_percent_card .icon_bg svg {
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    display: block;
+    margin: auto
+}
+
+.alert_percent_card .count {
+    color: #202536;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.149px;
+    text-align: center;
+}
+
+.alert_percent_card .text {
+    color: #202536;
+    font-size: 14px;
+    font-weight: 400;
+}

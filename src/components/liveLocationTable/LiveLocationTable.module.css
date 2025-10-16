@@ -1,0 +1,48 @@
+.liveLocationTable_container {
+    border: 1px solid #e2e2e2;
+    margin-bottom: 10px;
+}
+
+.liveLocationTable_headingConatiner {
+    padding-top: 22px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.liveLocationTable_title {
+    font-size: medium;
+    text-align: left;
+    font-weight: bold;
+    width: 60%;
+}
+
+.liveLocationTable_label {
+    text-align: left;
+    font-size: 12px !important;
+    letter-spacing: 0.28px;
+    color: #595959;
+    margin-bottom: 4px;
+}
+
+.liveLocationTable__value {
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px !important;
+    letter-spacing: 0.42px;
+    color: #000000;
+}
+
+.liveLocationTable__label {
+    text-align: left;
+    font-size: 12px !important;
+    letter-spacing: 0.28px;
+    color: #595959;
+    margin-bottom: 4px;
+}
+
+.liveLocationTable__row {
+    margin-top: 4px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,468 @@
+.shipment_componentContainer:last-child {
+  padding: 20px 10px 20px 10px;
+}
+
+.shipment_tableCard {
+  margin-top: 20px;
+}
+
+.shipment_textHeadingConatiner {
+  font-size: medium;
+  font-weight: bold;
+  padding-top: 22px;
+  padding-left: 20px;
+  padding-bottom: 16px;
+  display: flex;
+  background-color: #f8f9fa !important;
+}
+
+.shipment_tableTitle {
+  font-size: medium;
+  text-align: left;
+  font-weight: bold;
+  text-align: left;
+  width: 90%;
+}
+
+.shipment_cardContent {
+  padding: 0px;
+}
+
+.shipment_count_card {
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+  min-height: 70px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #202536;
+  background: #fff;
+  padding: 10px;
+  border-radius: 16px;
+  box-shadow: 0px 3.5px 3.5px 0px rgba(0, 0, 0, 0.05);
+}
+
+.shipment_count_card,
+.shipment_count_card_active {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  min-height: 130px;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0px 3.5px 3.5px rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+  transition: border 0.3s ease, background 0.3s ease;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  .shipment_count_card,
+  .shipment_count_card_active {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .shipment_count_icon_bg {
+    margin-right: 0;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: #ecf0f4;
+    border-radius: 50%;
+    margin-right: 12px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    margin-right: 12px;
+  }
+
+  .shipment_count,
+  .shipment_count_text {
+    font-size: 14px;
+    max-width: fit-content;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .shipment_count {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .shipment_count_text {
+    font-size: 14px;
+    max-width: fit-content;
+    text-align: left;
+  }
+}
+
+.shipment_count_card .shipment_count_icon_bg {
+  width: 44.626px;
+  height: 44.626px;
+  background: #ecf0f4 !important;
+  border-radius: 50%;
+}
+
+.shipment_count_card_active {
+  display: flex;
+  align-items: center;
+  min-height: 70px;
+  border: 1.5px solid #f06b24;
+  background: #f4e6de;
+  padding: 10px;
+  border-radius: 16px;
+  box-shadow: 0px 3.5px 3.5px 0px rgba(0, 0, 0, 0.05);
+  border: 1.5px solid #f06b24;
+  background: #f4e6de;
+}
+
+.shipment_count_card_active .shipment_count_icon_bg {
+  width: 44.626px;
+  height: 44.626px;
+  background: #f06b24 !important;
+  border-radius: 50%;
+}
+
+.shipment_count_card_active .shipment_count_icon_bg svg {
+  color: #fff !important;
+}
+
+.shipment_count_icon_active {
+  background: #f06b24;
+}
+
+.shipment_count_icon_bg svg {
+  padding: 10px 0px;
+  width: 45px;
+}
+
+.shipment_count {
+  color: #202536;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30.149px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.shipment_count_text {
+  color: #515b6b;
+  letter-spacing: -2%;
+  font-size: 15px;
+
+  max-width: fit-content;
+  text-align: start !important;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.shipment_count_box {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.shipment_title_align {
+  text-align: start;
+}
+
+.shipment_top_bar_text {
+  color: #06152b;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.filter_button_styles {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px !important;
+  justify-content: center;
+}
+
+.shipment_buttons_align {
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 19.37px;
+  padding: 4px;
+  border: 0.65px solid #f5f7f9;
+}
+
+.shipment_top_bar {
+  padding: 0px 10px 20px 10px;
+}
+
+.shipment_top_bar_refresh {
+  background: #ffff !important;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 10px !important;
+  min-width: 125px !important;
+  float: right;
+}
+
+.shipment_top_bar_button_active {
+  color: #f06b24;
+  background: #fef6f2 !important;
+  border-radius: 18px;
+}
+
+.shipment_top_bar_button {
+  color: #06152b !important;
+  background: #fff !important;
+  border-radius: 18px;
+}
+
+.shipment_top_bar_search {
+  padding-inline: 10px;
+  color: #9a9aa9;
+  font-weight: 400;
+  font-size: 14px;
+  background: #fff;
+  min-height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.shipment_search_filter_btn {
+  cursor: pointer;
+}
+
+.shipment_filter_box {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.shipment_filter_box_title {
+  color: var(--light-version-text, #06152b);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.shipment_filter_box_button_ml {
+  margin-left: 8px !important;
+  justify-content: left !important;
+  color: #9a9aa9 !important;
+}
+
+.search_close_button_style {
+  border: 1px solid #f06b24;
+  width: 103px !important;
+  height: 45px !important;
+  border-radius: 19px !important;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+}
+
+.search__button_style {
+  width: 103px !important;
+  height: 45px !important;
+  border-radius: 19px !important;
+  background-color: #f06b24 !important;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  color: #fff !important;
+}
+
+.shipment_top_bar_align {
+  align-items: center;
+}
+
+.shipment_details_th {
+  padding: 4px !important;
+  font-weight: 700 !important;
+}
+
+.shipment_details_tr {
+  padding: 4px !important;
+}
+
+.shipment_details_menu_ul {
+  padding: 10px !important;
+}
+
+.shipment_details_menu_li {
+  font-size: 16px;
+  border-radius: 5.551px !important;
+  background: #ecf0f4 !important;
+  margin: 8px !important;
+}
+
+.shipment_details_menu_li svg {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.shipment_details_active {
+  color: #f06b24 !important;
+}
+
+.shipment_details_status_tracked {
+  fill: #03a89e;
+  border-radius: 50%;
+  height: 12px !important;
+  width: 12px !important;
+  background: #e2e8f047;
+  color: #03a89e;
+  padding: 2px;
+}
+
+.shipment_details_status_intermittent {
+  fill: #ffbf00;
+  border-radius: 50%;
+  height: 12px !important;
+  width: 12px !important;
+  background: #f5e6e666;
+  color: #ffbf00;
+  padding: 2px;
+}
+
+.shipment_details_status_not_tracked {
+  fill: #eb5757;
+  border-radius: 50%;
+  height: 12px !important;
+  width: 12px !important;
+  background: #f5e6e666;
+  color: #eb5757;
+  padding: 2px;
+}
+
+.shipment_details_status_not_applicable {
+  fill: #a9a9a9;
+  border-radius: 50%;
+  height: 12px !important;
+  width: 12px !important;
+  background: #ffffff;
+  color: #a9a9a9;
+  padding: 2px;
+}
+
+.shipment_details_progress_bar {
+  color: #2d9cdb;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.shipment_details_progress_bar_100 {
+  color: #03a89e;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.shipment_details_app_status_healthy {
+  fill: #03a89e;
+  color: #03a89e;
+}
+
+.shipment_details_app_status_unhealthy {
+  fill: #eb5757;
+  color: #eb5757;
+}
+
+.shipment_details_tr_center {
+  text-align: center !important;
+}
+
+.shipment_details_loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.shipment_subscription_message {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.shipment_filter_text {
+  font-size: 22.78px;
+  font-weight: 700;
+  color: #06152b;
+  line-height: 100%;
+  text-align: center !important;
+  margin-bottom: 20px !important;
+}
+
+.search_filter_grid {
+  margin-bottom: 2% !important;
+}
+
+.search_by_container {
+  display: flex;
+  width: 50%;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.search_value_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.main_search_container {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.search_button_style {
+  margin-top: 2% !important;
+}
+
+.search_button_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3% !important;
+}
+
+.search_by_input {
+  background-color: #f8f9fa;
+  outline: none !important;
+  border-radius: 10px !important;
+  border: none !important;
+  font-size: 14.22px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #828282;
+  opacity: 0.7;
+}
+
+.shipment_inner_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}

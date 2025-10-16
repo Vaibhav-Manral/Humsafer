@@ -1,0 +1,56 @@
+.paymentInfo_container {
+    border: 1px solid #e2e2e2;
+    margin-bottom: 10px;
+}
+
+.paymentInfo_headingConatiner {
+    padding-top: 22px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.paymentInfo_title {
+    font-size: medium;
+    text-align: left;
+    font-weight: bold;
+    width: 60%;
+}
+
+.paymentInfo_row {
+    margin-top: 4px !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paymentInfo_value {
+    text-align: left;
+    font-size: 16px !important;
+    font-weight: 600;
+    letter-spacing: 0.42px;
+    color: #000000;
+}
+
+.paymentInfo_successValue {
+    text-align: left;
+    font-size: 16px !important;
+    font-weight: 600;
+    letter-spacing: 0.42px;
+    color: #035907;
+}
+
+
+.paymentInfo_errorValue {
+    text-align: left;
+    font-size: 16px !important;
+    font-weight: 600;
+    letter-spacing: 0.42px;
+    color: #9d0000;
+}
+
+.paymentInfo_label {
+    text-align: left;
+    font-size: 12px !important;
+    letter-spacing: 0.28px;
+    color: #595959;
+    margin-bottom: 4px;
+}

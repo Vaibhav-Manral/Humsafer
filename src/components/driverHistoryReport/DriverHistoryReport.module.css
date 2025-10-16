@@ -1,0 +1,125 @@
+.paymentInfo_container {
+  margin-bottom: 10px;
+  box-shadow: none !important;
+  padding: 20px;
+  background-color: white !important;
+}
+
+.paymentInfo_row {
+  margin-top: 4px !important;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.paymentInfo_value {
+  text-align: left;
+  font-size: 16px !important;
+  font-weight: 600;
+  letter-spacing: 0.42px;
+  color: #000000;
+}
+
+.paymentInfo_successValue {
+  text-align: left;
+  font-size: 16px !important;
+  font-weight: 600;
+  letter-spacing: 0.42px;
+  color: #035907;
+}
+
+.paymentInfo_errorValue {
+  text-align: left;
+  font-size: 16px !important;
+  font-weight: 600;
+  letter-spacing: 0.42px;
+  color: #9d0000;
+}
+
+.paymentInfo_label {
+  text-align: left;
+  font-size: 14px !important;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  color: #595959;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.paymentInfo_mobileNumbersDialogBox {
+  text-align: left;
+  font-size: 12px !important;
+  letter-spacing: 0.28px;
+  color: #595959;
+  margin-bottom: 4px;
+  width: 60% auto;
+  display: flex;
+  flex: 1;
+}
+
+.datePickerContainer {
+  width: 50%;
+}
+
+.datePickerContainer :global(.MuiTextField-root) {
+  width: 100%;
+}
+
+.datePickerContainer :global(.MuiOutlinedInput-root) {
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.datePickerContainer :global(.MuiOutlinedInput-notchedOutline) {
+  border-color: #e0e0e0;
+}
+
+.datePickerContainer
+  :global(.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline) {
+  border-color: #bdbdbd;
+}
+
+.datePickerContainer
+  :global(.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline) {
+  border-color: var(--primary-color);
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: left;
+  width: 50%;
+}
+
+.submitButton {
+  width: 100%;
+  height: 48px;
+  border-radius: 12px !important;
+  text-transform: none !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+@media (max-width: 600px) {
+  .paymentInfo_row {
+    flex-direction: column;
+  }
+
+  .paymentInfo_label {
+    margin-bottom: 12px;
+  }
+
+  .datePickerContainer {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .submitButton {
+    width: 100%;
+  }
+
+  .buttonContainer {
+    width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+.input {
+  background-color: white;
+  width: 426px !important;
+  height: 54px;
+  font-size: 15px !important;
+  box-shadow: 0px 2px 4px #1717172e;
+  border: 1px solid #f6f6f6 !important;
+  border-radius: 5px !important;
+  opacity: 0.8 !important;
+}
+
+.phoneImg {
+  margin-left: 3px;
+  margin-right: 28px;
+}

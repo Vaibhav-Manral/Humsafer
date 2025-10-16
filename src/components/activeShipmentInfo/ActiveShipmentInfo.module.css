@@ -1,0 +1,9 @@
+.shipment_details_app_status_healthy {
+    fill: #03A89E;
+    color: #03A89E;
+}
+
+.shipment_details_app_status_unhealthy {
+    fill: #EB5757;
+    color: #EB5757;
+}

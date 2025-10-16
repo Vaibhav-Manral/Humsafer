@@ -1,0 +1,39 @@
+.partnershipsPage_componentContainer {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.partnershipsPage_componentContainer:last-child {
+  margin-bottom: 20px !important;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.partnershipsPage_parentContainer {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+  background: white !important;
+  padding: 20px !important;
+  text-align: left !important;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.paymentInfo_label {
+  text-align: left;
+  font-size: 14px !important;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  color: #595959;
+  margin-bottom: 8px;
+  display: block;
+}

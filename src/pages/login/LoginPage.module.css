@@ -1,0 +1,114 @@
+.root {
+  height: 100vh;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginDiv {
+  width: 507px;
+  min-height: 387px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 3px 17px #2c28281c;
+  opacity: 1;
+}
+
+.validate {
+  width: 100%;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  text-transform: capitalize !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+  background-color: rgb(237, 115, 29) !important;
+  color: var(--black-amp-white-white, #FFF) !important;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700 !important;
+}
+
+.label {
+  font-size: 14px;
+  text-align: flex-start;
+  float: left;
+}
+
+.logo {
+  width: 222px;
+  height: 85px;
+  margin-bottom: 20px;
+}
+
+.mainHeader {
+  color: #ed731d;
+  letter-spacing: 0px;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: flex-start;
+}
+
+.react-phone-number-input__country {
+  display: none;
+}
+
+.subHeader {
+  color: #8f9daf;
+  font-size: 16px;
+  margin-bottom: 24px;
+  text-align: flex-start;
+}
+
+.form {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.bg_image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container_width {
+  max-width: 400px;
+}
+
+.otp_label {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.otp_back {
+  letter-spacing: 0px;
+  margin-bottom: 10px;
+  text-align: start !important;
+}
+
+.otp_back_icon {
+  cursor: pointer;
+}
+
+.otp_resend {
+  color: #ed731d;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.otp_resend :hover {
+  color: #000000;
+  cursor: pointer;
+}
+
+.otp_resend_counter {
+  color: #000000;
+  font-size: 14px;
+}

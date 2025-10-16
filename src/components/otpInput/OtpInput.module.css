@@ -1,0 +1,43 @@
+.otpInputBox {
+  width: 49px;
+  height: 53px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #f6f6f6;
+  border-radius: 5px;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: row;
+  margin-right: 17px;
+}
+
+.otpInputBox_res {
+  max-width: 49px;
+  max-height: 53px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #f6f6f6;
+  border-radius: 5px;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.otpInputBox:focus {
+  border: 2px solid #4d4d4d;
+}
+
+.otpInput {
+  display: flex;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  /* Firefox */
+}

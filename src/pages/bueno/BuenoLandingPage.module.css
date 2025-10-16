@@ -1,0 +1,17 @@
+.buenoPage_componentContainer {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buenoPage_componentContainer img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buenoPage_componentContainer:last-child {
+    margin-bottom: 20px !important;
+}

@@ -1,0 +1,50 @@
+.root {
+  padding: 12px 0px 12px 0px;
+  height: 100%;
+  z-index: 999;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 215px;
+  flex: 1 1;
+  overflow-y: auto;
+}
+
+.drawer {
+  transition: transform 0.8s ease-in-out;
+}
+
+.img {
+  width: 150px;
+  height: 60px;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50px;
+}
+
+.collapsed {
+  width: 110px !important;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.line,
+:after {
+  display: block;
+  height: 1px;
+  width: 84px;
+  margin: 0px auto;
+  text-indent: -9999px;
+  border-top: 1.5px solid #666666;
+  opacity: 0.5;
+}
+
+.toggleBtn {
+  color: #00000099 !important;
+  cursor: pointer;
+  width: 50px;
+}

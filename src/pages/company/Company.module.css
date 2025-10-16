@@ -1,0 +1,27 @@
+.company_componentContainer:last-child {
+    padding: 10px 10px 10px 10px;
+}
+
+.company_tableCard {
+    margin-bottom: 10px;
+}
+
+.company_textHeadingConatiner {
+    font-size: medium;
+    font-weight: bold;
+    padding: 15px 15px 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company_tableTitle {
+    font-size: medium;
+    text-align: left;
+    font-weight: bold;
+    text-align: left;
+}
+
+.company_cardContent {
+    padding: 0px;
+}

@@ -1,0 +1,18 @@
+{
+    "firebase": {
+        "apiKey": "AIzaSyB6FcnUVocVWr8CEjszTm7JshBfvInwxBo",
+        "authDomain": "humsafer-dev-4e9da.firebaseapp.com",
+        "databaseURL": "https://humsafer-dev-4e9da-default-rtdb.asia-southeast1.firebasedatabase.app",
+        "projectId": "humsafer-dev-4e9da",
+        "storageBucket": "humsafer-dev-4e9da.appspot.com",
+        "messagingSenderId": "930003667182",
+        "appId": "1:930003667182:web:eb559c7bb06722b146cbff",
+        "measurementId": "G-264TKHCKP4"
+    },
+    "server": {
+        "host": "https://stageapp.humsafer.co.in"
+    },
+    "mapKey": {
+        "key": "AIzaSyCixqEudvngoSG0e3aSORB_ek84NgtmAYE"
+    }
+}

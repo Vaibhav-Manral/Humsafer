@@ -1,0 +1,118 @@
+.modalRoot {
+  overflow: scroll;
+  border-color: white;
+}
+
+.modalCloseIcon {
+  float: right;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+.modalBody {
+  margin-top: 40px;
+  width: 800px;
+  height: 450px;
+}
+
+.license {
+  border-radius: 12px;
+  margin: 0 auto;
+  padding: 24px;
+  width: 90%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.driverInfo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.driverInfo > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #595959;
+  letter-spacing: 0.28px;
+}
+
+.driverInfo span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  letter-spacing: 0.42px;
+}
+
+.covs {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.covs .title {
+  margin-bottom: 12px;
+}
+
+.covs > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.covs span {
+  background: #e9ecef;
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 14px;
+  color: #495057;
+  font-weight: 500;
+}
+
+.dlImages {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.dlImage {
+  width: 340px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+}
+
+.actions {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.verifyButton {
+  background-color: rgb(40, 92, 214);
+  color: #fff;
+  font-weight: bold;
+}
+
+.deleteButton {
+  background-color: rgb(200, 51, 51);
+  color: #fff;
+  font-weight: bold;
+}

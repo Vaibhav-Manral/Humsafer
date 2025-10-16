@@ -1,0 +1,48 @@
+
+.dialog
+{
+    max-width: 425px !important;
+}
+.dialog_button{
+    border-radius: 10px !important;
+    text-align: center;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: normal;
+    margin-top: 8px !important;
+}
+.dialog_icon{
+    display: flex;
+    justify-content: center;
+}
+
+.dialog_message{
+    text-align: center;
+    color: #2A2E33 !important;
+    font-size: 16px;
+}
+.dialog_action{
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.dialog_error_icon 
+{
+    font-size: 41px !important;
+    color: #D75059;
+}
+.dialog_border{
+    max-width: 425px !important;
+    border-radius: 20px !important;
+}
+.clickable_text{
+    cursor: pointer;
+    text-decoration: none;
+    color: #F06B24;
+}
+.clickable_text:hover{
+    text-decoration: underline;
+}

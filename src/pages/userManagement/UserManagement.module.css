@@ -1,0 +1,33 @@
+.userManagement_componentContainer {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.userManagement_componentContainer:last-child {
+    margin-bottom: 20px !important;
+}
+
+.userManagement_tableCard {
+    margin-bottom: 10px;
+}
+
+.userManagement_textHeadingConatiner {
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 22px;
+    padding-left: 20px;
+    padding-bottom: 16px;
+    display: flex;
+}
+
+.userManagement_tableTitle {
+    font-size: medium;
+    text-align: left;
+    font-weight: bold;
+    text-align: left;
+    width: 90%;
+}
+
+.userManagement_cardContent {
+    padding: 0px;
+}

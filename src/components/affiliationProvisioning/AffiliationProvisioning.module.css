@@ -1,0 +1,110 @@
+.affiliationProvisioning_container {
+  margin: 20px;
+  background: white;
+  border: none;
+  box-shadow: none;
+}
+
+.affiliationProvisioning_headingConatiner {
+  padding: 20px 20px 0;
+}
+
+.affiliationProvisioning_title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.affiliationProvisioning_row {
+  padding: 20px;
+}
+
+.affiliationProvisioning_label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #333;
+  text-align: left;
+  display: block;
+}
+
+.inputContainer {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+.affiliationProvisioning_mobileNumbersDialogBox {
+  width: 100%;
+}
+
+.affiliationProvisioning_mobileNumbersDialogBox .MuiOutlinedInput-root {
+  border-radius: 12px;
+}
+
+.affiliationProvisioning_mobileNumbersDialogBox
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #e0e0e0;
+}
+
+.affiliationProvisioning_mobileNumbersDialogBox
+  .MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #bdbdbd;
+}
+
+.affiliationProvisioning_mobileNumbersDialogBox
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: var(--primary-color);
+}
+
+/* Add styles for dropdown text alignment */
+.affiliationProvisioning_mobileNumbersDialogBox .MuiSelect-select,
+.affiliationProvisioning_mobileNumbersDialogBox .MuiMenuItem-root {
+  text-align: left !important;
+  justify-content: flex-start !important;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;  
+}
+
+.submitButton {
+  width: 25%;
+  height: 48px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: none;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 600px) {
+  .affiliationProvisioning_container {
+    margin: 10px;
+  }
+
+  .affiliationProvisioning_row {
+    padding: 15px;
+  }
+
+  .inputContainer {
+    width: 100%;
+  }
+
+  .affiliationProvisioning_label {
+    text-align: left;
+    margin-bottom: 8px;
+  }
+
+  .buttonContainer {
+    justify-content: center;
+  }
+
+  .submitButton {
+    width: 100%;
+    max-width: 200px;
+  }
+}

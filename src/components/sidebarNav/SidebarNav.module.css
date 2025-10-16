@@ -1,0 +1,55 @@
+.nav {
+  margin-bottom: 2px;
+  overflow-y: scroll;
+}
+
+.nav::-webkit-scrollbar {
+  display: none;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 260px;
+  padding: 10px 10px;
+  max-height: 85vh;
+}
+
+.list {
+  padding: 0 !important;
+}
+
+.icon {
+  padding: 8px 8px 0px 0px;
+
+}
+
+.button {
+  width: 100%;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+.item {
+  display: flex;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.title {
+  justify-content: flex-start;
+  font-size: 16px;
+  text-transform: none;
+  letter-spacing: 0;
+  width: 100%;
+  font-weight: bold;
+  text-align: left;
+  opacity: 1;
+}
+
+.largeTooltip {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+}

@@ -1,0 +1,39 @@
+.drivingLicenseInfo_container {
+    border: 1px solid #e2e2e2;
+    margin-bottom: 10px;
+}
+
+.drivingLicenseInfo_headingConatiner {
+    padding-top: 22px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.drivingLicenseInfo_title {
+    font-size: medium;
+    text-align: left;
+    font-weight: bold;
+    width: 60%;
+}
+
+.drivingLicenseInfo_row {
+    margin-top: 4px !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.drivingLicenseInfo_value {
+    text-align: left;
+    font-size: 16px !important;
+    font-weight: 600;
+    letter-spacing: 0.42px;
+    color: #000000;
+}
+
+.drivingLicenseInfo_label {
+    text-align: left;
+    font-size: 12px !important;
+    letter-spacing: 0.28px;
+    color: #595959;
+    margin-bottom: 4px;
+}

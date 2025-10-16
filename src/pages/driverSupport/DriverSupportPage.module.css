@@ -1,0 +1,8 @@
+.driverSupport_componentContainer {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.driverSupport_componentContainer:last-child {
+    margin-bottom: 20px !important;
+}

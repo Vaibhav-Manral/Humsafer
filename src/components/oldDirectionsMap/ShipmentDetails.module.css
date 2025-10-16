@@ -1,0 +1,575 @@
+.shipment__details_m15 {
+  margin-bottom: 15px;
+}
+
+.shipment_place_card {
+  display: flex;
+  min-height: 116px;
+  background: #fff;
+  padding: 25px 10px 10px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 3.5px 3.5px 0px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.shipment_place_card .shipment_place_icon_bg {
+  width: 44.626px;
+  height: 44.626px;
+  background: #ecf0f4 !important;
+  border-radius: 50%;
+}
+
+.shipment_place_icon_bg svg {
+  padding: 8px 0px;
+  width: 44px;
+}
+
+.shipment_place {
+  color: #202536;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30.149px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.shipment_place_text {
+  color: #202536;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 10px;
+  line-height: 1.8;
+}
+
+.shipment_place_box {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.shipmentDetails_box {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.shipment_details_title_align {
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.shipment_details_top_bar_text {
+  color: #06152b;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 10px;
+}
+
+.shipment_buttons_align {
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  padding: 4px;
+}
+
+.shipment_details_top_bar {
+  padding: 0px 10px 20px 10px;
+}
+
+.shipment_top_bar_button {
+  color: #06152b !important;
+  background: #fff !important;
+  border-radius: 18px;
+}
+
+.shipment_details_top_bar_align {
+  align-items: center;
+}
+
+.shipment_details_map {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.shipment_details_map_box {
+  /* min-height: 515px; */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 3.5px 3.5px 0px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  position: relative; /* Add this line */
+}
+
+.driver_location_refresh {
+  background: #ffff !important;
+  font-size: 16px;
+  border-radius: 20px !important;
+  min-width: 125px !important;
+  position: absolute !important; /* Change to absolute positioning */
+  top: 25px; /* Adjust to your preference */
+  right: 25px; /* Adjust to your preference */
+  z-index: 10; /* Ensure it appears on top of the map */
+}
+
+.shipment_details_tracking_card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 3.5px 3.5px 0px rgba(0, 0, 0, 0.05);
+}
+
+.shipment_details_tracking_card .shipment_details_tracking_status {
+  padding: 10px;
+  color: #fff;
+  background: #03a89e;
+  border-radius: 10px 10px 0px 0px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.shipment_details_tracking_card .shipment_details_tracking_vehicle {
+  color: #515b6b;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+  padding-bottom: 15px;
+}
+
+.shipment_details_tracking_card .shipment_details_tracking_icon_detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.shipment_details_tracking_card .shipment_details_tracking_icon {
+  border-radius: 50%;
+  border: 1px solid #03a89e;
+  padding: 10px;
+  width: 40px;
+  background-color: #dff2f3;
+}
+
+.shipment_details_tracking_card .shipment_details_tracking_icon svg {
+  font-size: 36px;
+  color: #48a99f;
+}
+
+.shipment_details_tracking_card_not_track {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 3.5px 3.5px 0px rgba(0, 0, 0, 0.05);
+}
+
+.shipment_details_tracking_card_not_track .shipment_details_tracking_status {
+  padding: 10px;
+  color: #fff;
+  background: #eb5757;
+  border-radius: 10px 10px 0px 0px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.shipment_details_tracking_card_not_track .shipment_details_tracking_vehicle {
+  color: #515b6b;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+  padding-bottom: 15px;
+}
+
+.shipment_details_tracking_card_not_track
+  .shipment_details_tracking_icon_detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.shipment_details_tracking_card_not_track .shipment_details_tracking_icon {
+  border-radius: 50%;
+  border: 1px solid #eb5757;
+  padding: 10px;
+  width: 40px;
+  background-color: #ecd2d2;
+}
+
+.shipment_details_tracking_card_not_track .shipment_details_tracking_icon svg {
+  font-size: 36px;
+  color: #eb5757;
+}
+
+.shipment_details_tracking_card_intermittent_track {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 3.5px 3.5px 0px rgba(0, 0, 0, 0.05);
+}
+
+.shipment_details_tracking_card_intermittent_track
+  .shipment_details_tracking_status {
+  padding: 10px;
+  color: #fff;
+  background: #ffbf00;
+  border-radius: 10px 10px 0px 0px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.shipment_details_tracking_card_intermittent_track
+  .shipment_details_tracking_vehicle {
+  color: #515b6b;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+  padding-bottom: 15px;
+}
+
+.shipment_details_tracking_card_intermittent_track
+  .shipment_details_tracking_icon_detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.shipment_details_tracking_card_intermittent_track
+  .shipment_details_tracking_icon {
+  border-radius: 50%;
+  border: 1px solid #ffbf00;
+  padding: 10px;
+  width: 40px;
+  background-color: #ffffff;
+}
+
+.shipment_details_tracking_card_intermittent_track
+  .shipment_details_tracking_icon
+  svg {
+  font-size: 36px;
+  color: #ffbf00;
+}
+
+.shipment_details_card_dispatch_info {
+  display: flex;
+  background: #fff;
+  padding: 18px 10px 10px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 3.5px 3.5px 0px rgba(0, 0, 0, 0.05);
+}
+
+.shipment_details_card_dispatch {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.shipment_details_card_dispatch .shipment_details_icon_bg {
+  width: 44.626px;
+  height: 44.626px;
+  background: #ecf0f4 !important;
+  border-radius: 50%;
+}
+
+.shipment_details_card_dispatch .shipment_details_icon_bg svg {
+  padding: 8px 0px;
+  width: 44px;
+}
+
+.shipment_details_card_dispatch .shipment_details_dispatch_card {
+  background: #fff;
+  border-radius: 4px;
+  border-radius: 14px;
+  box-shadow: 0px 3.5px 3.5px 0px rgba(0, 0, 0, 0.05);
+  padding: 18px 10px 10px 10px;
+}
+
+.shipment_details_card_dispatch .shipment_title {
+  color: #202536;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30.149px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.shipment_details_card_dispatch .shipment_text {
+  color: #202536;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.shipment_driver_card {
+  display: flex;
+  min-height: 128px;
+  background: #fff;
+  padding: 18px 10px 10px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 3.5px 3.5px 0px rgba(0, 0, 0, 0.05);
+}
+
+.shipment_driver_card .shipment_driver_icon_bg {
+  width: 44.626px;
+  height: 44.626px;
+  background: #ecf0f4 !important;
+  border-radius: 50%;
+}
+
+.shipment_driver_card svg {
+  padding: 8px 0px;
+  width: 44px;
+}
+
+.shipment_driver_card .shipment_driver {
+  color: #202536;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30.149px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.shipment_driver_card .shipment_driver_text {
+  color: #202536;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 10px;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.shipment_chart {
+  background: #fff;
+  padding: 18px 10px 10px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 3.5px 3.5px 0px rgba(0, 0, 0, 0.05);
+}
+
+.shipment_details_end_button {
+  color: #fff;
+  text-align: center;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: normal;
+  min-width: 130px !important;
+  margin-left: 15px !important;
+}
+
+.shipment_details_pri_btn {
+  text-align: center;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: normal;
+  /* min-width: 90px !important; */
+  margin-left: 15px !important;
+}
+
+.shipment_details_fill_btn {
+  background: #03a89e !important;
+  min-width: 130px !important;
+  color: #fff;
+  text-align: center;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: normal;
+  margin-left: 15px !important;
+}
+
+.shipment_status_button {
+  display: flex;
+  float: right;
+}
+
+.shipment_step {
+  display: flex;
+  height: 5rem;
+  text-align: left;
+}
+
+.shipment_icon_container {
+  margin-top: 0.3rem;
+  margin-right: 0.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shipment_line {
+  display: block;
+  margin: 0 auto;
+  width: 2px;
+  height: 100%;
+  background: #e2e8f0;
+}
+
+.shipment_text {
+  margin-top: 0;
+  margin-bottom: 3px;
+  color: #202536;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.shipment_date {
+  color: #9a9aa9;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.shipment_timeline_title {
+  text-align: left;
+  color: #202536;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.shipment_timeline_ml40 {
+  margin-left: 40px;
+  max-height: 515px;
+  overflow: scroll;
+}
+
+.shipment_details_copy {
+  margin-left: 26px;
+  cursor: pointer;
+  color: #ee5b36;
+  border-bottom: 1px solid;
+}
+
+.chart_text_box {
+  margin-left: 30px;
+  text-align: left;
+  margin-top: 24px;
+}
+
+.chart_text_box_traveled {
+  background-color: #03a89e;
+  padding: 3px 3px 2px 19px;
+  border-radius: 50%;
+  margin-right: 9px;
+}
+
+.chart_text_box_remaining {
+  background-color: #bee8e6;
+  padding: 3px 3px 2px 19px;
+  border-radius: 50%;
+  margin-right: 9px;
+}
+
+.shipment_details_back {
+  cursor: pointer;
+}
+
+.battery_info_container {
+  margin-top: 0.5rem;
+  margin-left: 20px;
+  display: flex;
+  height: 4rem;
+  text-align: center;
+}
+
+.battery_percentage_text {
+  vertical-align: middle;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.shipment_loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.shipment_fuel_plan_card .shipment_title {
+  color: #202536;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 15px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.shipment_fuel_plan_card {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.shipment_fuel_parameters_info {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.shipment_fuel_plan_card_info {
+  display: flex;
+  background: #fff;
+  padding: 18px 10px 10px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 3.5px 3.5px 0px rgba(0, 0, 0, 0.05);
+  margin-bottom: 10px;
+}
+
+.title_text_style {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  margin-bottom: 3% !important;
+}
+
+@media (max-width: 600px) {
+  .shipment_details_card_dispatch_info {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background: #fff;
+    padding: 18px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 3.5px 3.5px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  .responsive_button_group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .shipment_details_pri_btn,
+  .shipment_details_fill_btn,
+  .shipment_details_end_button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .shipment_info_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: "100%";
+  }
+}

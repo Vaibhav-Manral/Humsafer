@@ -1,0 +1,18 @@
+{
+    "firebase": {
+        "apiKey": "AIzaSyCQSKRoiz04wW6LddlVEZixF0xSrrQVl9s",
+        "authDomain": "humsafer-prod.firebaseapp.com",
+        "databaseURL": "https://humsafer-prod-default-rtdb.asia-southeast1.firebasedatabase.app",
+        "projectId": "humsafer-prod",
+        "storageBucket": "humsafer-prod.appspot.com",
+        "messagingSenderId": "216322727347",
+        "appId": "1:216322727347:web:0f1fe014da4dc5e6c07fc6",
+        "measurementId": "G-5J38SNS6ES"
+    },
+    "server": {
+        "host": "https://app.humsafer.co.in"
+    },
+    "mapKey": {
+        "key": "AIzaSyC7Y6XpMQUQWriLCgOr4BbqWVKzKpZKyO0"
+    }
+}

@@ -1,0 +1,187 @@
+.shipment_componentContainer:last-child {
+  padding: 0px !important;
+}
+
+.shipment_cardContent {
+  padding: 0px !important;
+}
+.shipment_form_content {
+  padding: 30px 100px 30px 100px;
+  min-height: 500px;
+}
+.shipment_form_content_res {
+  padding: 20px 20px 20px 20px;
+}
+.shipment_form_heder {
+  margin-bottom: 10%;
+  color: #06152b;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  line-height: 100%;
+}
+.shipment_next_button {
+  border-radius: 10px !important;
+  background: #ecf0f4 !important;
+  color: #9f9f9f !important;
+  text-align: center;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: normal;
+  box-shadow: none !important;
+  width: 50% !important;
+}
+.shipment_next_button_filled {
+  border-radius: 12.49px !important;
+  background: #f06b24 !important;
+  color: #f7f8f9 !important;
+  text-align: center;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: normal;
+  width: 50% !important;
+}
+
+.shipment_submit_button_gray {
+  border-radius: 12.49px !important;
+  background: #ecf0f4 !important;
+  color: #9f9f9f !important;
+  text-align: center;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: normal;
+  letter-spacing: 0%;
+  width: 60% !important;
+  margin-top: 5% !important;
+  padding: 5px;
+  box-shadow: none !important;
+}
+
+.shipment_submit_button {
+  border-radius: 38px !important;
+  background: #f06b24 !important;
+  color: #f7f8f9 !important;
+  text-align: center;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: normal;
+  width: 70% !important;
+  margin-top: 45px !important;
+}
+.shipment_width {
+  width: 100% !important;
+}
+.shipment_label {
+  text-align: left !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+  margin-bottom: 10px;
+}
+.shipment_radio_align {
+  justify-content: center !important;
+}
+
+.custom_radio {
+  border: 1px solid #ccc;
+  padding: 4px 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 5px;
+}
+
+.custom_radio span {
+  padding: 0px !important;
+}
+.custom_radio span span {
+  margin-right: 5px;
+}
+
+.shipment_back_button_res {
+  padding: 2px 5px 0px 5px;
+  border-radius: 12px;
+  border: 1px solid var(--border, #e8ecf4);
+  background: var(--white, #fff);
+  cursor: pointer;
+  margin-right: 15px;
+}
+.shipment_back_button_res svg {
+  font-size: 20px;
+}
+.shipment_back_button {
+  margin-right: 12px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.shipment_border_orange {
+  border-bottom: 4px solid #f06b24;
+  margin-top: 10px;
+}
+.shipment_border_gray {
+  border-bottom: 4px solid #d9d9d9;
+  margin-top: 10px;
+}
+.shipment_error {
+  color: #e74c3c;
+  font-size: 14px;
+  text-align: left;
+  float: left;
+}
+.form_label_style {
+  font-weight: 500 !important;
+  size: 14px !important;
+  letter-spacing: -2%;
+  color: #202536 !important;
+  text-align: left;
+}
+.shipment_input {
+  margin-top: 5px !important;
+  margin-bottom: 5% !important;
+}
+.shipment_input :global(.MuiInputBase-root) {
+  border-radius: 10px;
+}
+.shipment_input input::placeholder {
+  color: #828282;
+  font-size: 14px;
+  font-weight: 400;
+}
+.shipment_date_input {
+  margin-top: 5px !important;
+  margin-bottom: 5% !important;
+}
+.next_button_style {
+  display: flex;
+  justify-content: center;
+}
+
+.back_arrow_style {
+  color: #292d32;
+}
+
+.shipment_text_block {
+  max-width: 80px;
+  word-break: break-word;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.shipment_count,
+.shipment_count_text {
+  text-align: center;
+  margin-left: 0 !important;
+}
+.shipment_inner_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

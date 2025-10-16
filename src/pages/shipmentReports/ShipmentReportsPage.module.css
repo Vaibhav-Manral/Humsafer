@@ -1,0 +1,33 @@
+.shipmentReportsPage_componentContainer {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+
+.shipmentReportsPage_componentContainer:last-child {
+  margin-bottom: 20px !important;
+}
+
+.title {
+  font-size: medium;
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: 50px;
+  /* margin-bottom: 20px; */
+}
+
+.shipmentReportsPage_parentContainer {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+  background: white !important;
+  padding: 20px !important;
+  text-align: left !important;
+}
+.paymentInfo_label {
+  text-align: left;
+  font-size: 14px !important;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  color: #595959;
+  margin-bottom: 8px;
+  display: block;
+}

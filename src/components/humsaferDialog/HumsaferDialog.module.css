@@ -1,0 +1,38 @@
+.humsaferDialog__TitleContainer {
+    background: #F5F5F5 0% 0% no-repeat padding-box !important;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.humsaferDialog__TitleCross {
+    position: absolute !important;
+    right: 0px;
+    top: 0px;
+}
+
+.humsaferDialog__Container {
+    padding: 0px;
+}
+
+.humsaferDialog__descriptionContainer {
+    margin-top: 20px !important;
+    margin: auto;
+    color: #000000;
+    text-align: center;
+}
+
+.humsaferDialog__btnTextContainer {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.humsaferDialog__btnTextContainer>button {
+    color: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,8 @@
+.biradaree_componentContainer {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.biradaree_componentContainer:last-child {
+    margin-bottom: 20px !important;
+}

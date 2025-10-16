@@ -1,0 +1,78 @@
+.container {
+  padding: 20px;
+}
+
+.inputContainer {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #333;
+  text-align: left;
+  display: block;
+}
+
+.inputWrapper {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.input {
+  flex: 1;
+}
+
+.submitButton {
+  height: 56px;
+  min-width: 100px;
+  text-transform: none;
+  font-size: 16px;
+}
+
+.shipmentCard {
+  margin-top: 20px;
+  padding: 24px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.shipmentHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.shipmentDetails {
+  padding: 16px 0;
+}
+
+.shipmentDetails > div {
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .inputContainer {
+    width: 100%;
+  }
+
+  .inputWrapper {
+    flex-direction: column;
+  }
+
+  .submitButton {
+    width: 100%;
+  }
+
+  .shipmentHeader {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+}
