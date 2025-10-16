@@ -1,5 +1,5 @@
-import SearchIcon from "@mui/icons-material/Search";
-import GradingIcon from "@mui/icons-material/Grading";
+import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
 import GroupIcon from "@mui/icons-material/Group";
 import CreditCardIcon from "@mui/icons-material/CreditCard";
 import SummarizeIcon from "@mui/icons-material/Summarize";
@@ -7,10 +7,10 @@ import HandshakeIcon from "@mui/icons-material/Handshake";
 import GridViewIcon from "@mui/icons-material/GridView";
 import LogoutIcon from "@mui/icons-material/Logout";
 import ApartmentIcon from "@mui/icons-material/Apartment";
-import LocalShippingIcon from "@mui/icons-material/LocalShipping";
+import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
-import PeopleOutlineIcon from "@mui/icons-material/PeopleOutline";
-import ShowChartIcon from "@mui/icons-material/ShowChart";
+import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
+import TrendingUpOutlinedIcon from '@mui/icons-material/TrendingUpOutlined';
 import { Capability } from "./User";
 
 export interface IPage {
@@ -31,26 +31,26 @@ export const allPages: IPage[] = [
     capabilities: [Capability.ALL],
   },
   {
-    icon: SearchIcon,
+    icon: HelpOutlineIcon,
     title: "Support",
     href: "/support",
     capabilities: [Capability.ALL, Capability.DRIVER_SUPPORT],
   },
   {
-    icon: GradingIcon,
+    icon: DescriptionOutlinedIcon,
     title: "Review DL",
     href: "/driving-license",
     capabilities: [Capability.ALL, Capability.REVIEW_DRIVER_LICENSE],
   },
   {
-    icon: CreditCardIcon,
+    icon: DescriptionOutlinedIcon,
     title: "Biradaree Info",
     href: "/biradaree-info",
     capabilities: [Capability.ALL, Capability.DRIVER_BIRADAREE_SEARCH],
     hideFromSidebar: true,
   },
   {
-    icon: SummarizeIcon,
+    icon: DescriptionOutlinedIcon,
     title: "Internal Reports",
     href: "/internal-reports",
     capabilities: [Capability.ALL, Capability.REPORTS],
@@ -63,7 +63,7 @@ export const allPages: IPage[] = [
     hideFromSidebar: true,
   },
   {
-    icon: PeopleOutlineIcon,
+    icon: PeopleAltOutlinedIcon,
     title: "Internal Users",
     href: "/user-management",
     capabilities: [Capability.ALL, Capability.USER_MANAGEMENT],
@@ -91,7 +91,7 @@ export const allPages: IPage[] = [
     capabilities: [Capability.ALL],
   },
   {
-    icon: LocalShippingIcon,
+    icon: LocalShippingOutlinedIcon,
     title: "Shipments List",
     href: "/shipments",
     capabilities: [
@@ -108,7 +108,7 @@ export const allPages: IPage[] = [
     ],
   },
   {
-    icon: SummarizeIcon,
+    icon: DescriptionOutlinedIcon,
     title: "Shipment Reports",
     href: "/shipment-reports",
     capabilities: [
@@ -119,7 +119,7 @@ export const allPages: IPage[] = [
     ],
   },
   {
-    icon: ShowChartIcon,
+    icon: TrendingUpOutlinedIcon,
     title: "Analyse",
     href: "/analyse",
     capabilities: [Capability.ALL, Capability.ALL_DMS_FEATURES],
@@ -132,7 +132,7 @@ export const allPages: IPage[] = [
     ],
   },
   {
-    icon: GroupIcon,
+    icon: PeopleAltOutlinedIcon,
     title: "Users",
     href: "/users",
     capabilities: [

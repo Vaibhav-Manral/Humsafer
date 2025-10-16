@@ -1,17 +1,25 @@
 .root {
-  padding: 12px 0px 12px 0px;
-  height: 100%;
+  padding: 12px 20px;
+  height: 100vh;
   z-index: 999;
-  gap: 50px;
-  display: flex;
-  flex-direction: column;
+  /* gap: 50px; */
+  display: grid;
+  grid-template-rows: 70px 1fr;
   width: 215px;
-  flex: 1 1;
-  overflow-y: auto;
+  border-right: 1px solid #e0e0e0;
+  transition: width 225ms ease-in-out, padding 225ms ease-in-out;
+
+  /* overflow-y: auto; */
 }
 
 .drawer {
   transition: transform 0.8s ease-in-out;
+}
+
+.collapsedImg {
+  width: 60px;
+  height: 60px;
+  padding-left: 10px;
 }
 
 .img {
@@ -25,13 +33,16 @@
   justify-content: center;
   align-items: center;
   min-height: 50px;
+  /* border-bottom: 1px solid #e0e0e0; */
 }
 
 .collapsed {
-  width: 110px !important;
-  border-radius: 0px 20px 20px 0px;
+  width: 80px !important;
+  /* border-radius: 0px 20px 20px 0px; */
+  padding: 12px 0px;
+  border-right: 1px solid #e0e0e0;
 }
-
+/*
 .line,
 :after {
   display: block;
@@ -39,9 +50,8 @@
   width: 84px;
   margin: 0px auto;
   text-indent: -9999px;
-  border-top: 1.5px solid #666666;
   opacity: 0.5;
-}
+} */
 
 .toggleBtn {
   color: #00000099 !important;

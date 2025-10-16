@@ -5,16 +5,16 @@
 
 .content {
   flex: 1;
-  margin: 20px 20px 20px 230px;
-  width: calc(100% - 230px);
-  transition: margin 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, width 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+  padding-left: 250px;
+  width: calc(100% - 250px);
+  transition: padding-left 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, width 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
 }
 
 .content_res {
   flex: 1;
-  margin: 0px;
+  padding-left: 0px;
   width: 100%;
-  transition: margin 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, width 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+  transition: padding-left 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, width 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
 }
 
 .content_res,
@@ -71,7 +71,7 @@
 }
 
 .collapsed {
-  margin: 20px 20px 20px 130px !important;
-  width: calc(100% - 130px) !important;
-  transition: margin 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, width 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+  padding-left: 80px !important;
+  width: calc(100% - 80px) !important;
+  transition: padding-left 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, width 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
 }

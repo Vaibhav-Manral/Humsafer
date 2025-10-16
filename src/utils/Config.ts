@@ -64,12 +64,13 @@ export class Config {
   public themeConfig() {
     return {
       primaryColor: "#ed731d",
-      primaryTextColor: "#00000099", //"#ffffff",
+      primaryTextColor: "#595959", //"#ffffff",
       selectedColor: "#F06B24", // "#d5671a",
       primaryBgColor: "#F06B240F",
       logoDark: "/assets/humsaferLogo.png",
       logoLight: "/assets/humsaferLogoWhite.png",
       logo: "/assets/logo.png",
+      collapseLogo:'/assets/collapsLogo.png',
       smallLogo: "/assets/smallLogo.png",
       logoBg: "/assets/loginbg.png",
       shipmentBg: "/assets/shipmentBg.png",
