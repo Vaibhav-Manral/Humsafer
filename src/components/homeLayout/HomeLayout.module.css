@@ -19,7 +19,7 @@
 
 .content_res,
 .content {
-  overflow-y: auto;
+  /* overflow-y: auto; */
   height: 100vh;
 }
 

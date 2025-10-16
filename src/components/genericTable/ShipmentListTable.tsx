@@ -233,10 +233,10 @@ function ShipmentListTable<T>(props: IGenericTableProps<T>) {
       fontWeight: "400 !important",
       color: "#06152B",
       borderBottom: "none !important",
-      textAlign: "center",
+      textAlign: "center !important",
     },
     [`&:first-of-type`]: {
-      textAlign: "center",
+      textAlign: "center !important",
     },
   }));
 
